@@ -1,6 +1,8 @@
 # MouseSnake
 MouseSnake – A smooth, mouse-driven snake game where you control the serpent’s direction freely. Follow your cursor, evade collisions, and grow longer with each bite. Features difficulty levels, invincibility protection, and fluid body animation.
-Source Code
+
+## Source Code
+```
 请实现一个网页贪吃蛇游戏（HTML/CSS/JS，现代浏览器，自适应画布 1000×600），具体要求：
 
 1. 核心玩法：鼠标控制蛇头方向（任意角度移动，非上下左右）。蛇头实时朝向鼠标光标移动，速度为固定像素步长（MOVE_STEP = 18px）。身体严格跟随头轨迹，每节间距等于步长。吃到食物身体增长一节，分数+1。
@@ -59,3 +61,18 @@ Source Code
 11. 额外提供命令行友好性（可选）：代码生成后可以直接运行，无需额外配置。
 
 输出要求：完整的 HTML 文件，包含 DOCTYPE、样式、脚本，确保移动端触摸友好（但核心测试使用鼠标）。最终提供代码。
+
+```
+
+项目核心思想：使用一段合理的提示词，使得任意具有编程能力的ai可以一次完成该任务。同时，这样的完整编程提示词也可以作为一种ai能力评价指标。
+
+## 目前测试的结果
+
+qwen-3.6-27B：✅
+
+qwen-3.6-35B-A3B：❌
+
+Gemini-flash：✅
+
+deepseek-V4：✅
+
